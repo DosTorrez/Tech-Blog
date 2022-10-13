@@ -1,0 +1,29 @@
+{
+    "name": "tech-blog",
+    "version": "1.0.0",
+    "description": "A CMS style blog similar to a Wordpress site, where developers can publish their blog posts and comment on other posts as well. Following the MVC paradigm, using handlebars, and sequelize.",
+    "engines": {
+        "node": "16.15.1"
+    },
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    
+    
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "connect-session-sequelize": "^7.1.2",
+      "dotenv": "^10.0.0",
+      "exphbs": "^1.2.0",
+      "express": "^4.17.1",
+      "express-handlebars": "^5.3.4",
+      "express-session": "^1.17.2",
+      "mysql2": "^2.3.0",
+      "path": "^0.12.7",
+      "routers": "^0.1.4",
+      "sequelize": "^6.6.5",
+      "session": "^0.1.0"
+    }
+  }
